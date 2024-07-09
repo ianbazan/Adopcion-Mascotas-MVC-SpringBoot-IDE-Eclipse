@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>100.840.0</version>
+	<lang>C++</lang>
+	<BuildNo>9841247</BuildNo>
+	
+	<RHAPSODY-MODEL>
+	<IProfile type="e">
+			<_id type="a">GUID 7e97bde9-a060-4e4f-bb69-e3b345acb7db</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">DesignModel</_name>
+			<_modifiedTimeWeak type="a">2.1.2021::18:48:14</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.1.2021::18:48:14</_modifiedTime>
+			<_lastID type="a">12</_lastID>
+			<weakCGTime type="a">2.1.2021::18:48:14</weakCGTime>
+			<strongCGTime type="a">1.1.2021::22:53:54</strongCGTime>
+			<_defaultComposite type="s">GUID eba87f2b-8c14-4e34-8d14-4d4f383d5842</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 42d9b051-db91-496c-9b6c-b1b71a44aa18</value>
+				<value>GUID 3370cd12-7f9f-4b57-bbbe-7f1d438dfefe</value>
+				<value>GUID ecc20ed6-06d5-4707-987f-4036f890fd8c</value>
+				<value>GUID 7a2582ed-2929-49c6-bc9c-8d4034aeacd0</value>
+				<value>GUID 6a60ba25-1739-4b6c-834b-c4c45faa7d27</value>
+				<value>GUID b6902a2d-ecf4-4ebd-89b1-12a076bc710a</value>
+				<value>GUID 4aeb0f30-0482-4438-bfe1-f073de14968d</value>
+				<value>GUID 485d409a-5cfd-48e7-be23-aa114f5153ec</value>
+				<value>GUID b10598ff-9d20-47c7-ad37-d9081240fa08</value>
+				<value>GUID 45dc8d9a-f17b-4879-ae47-23e28ced86bc</value>
+				<value>GUID 6624c6dd-9bcf-4dbe-ad27-4fa6229f7ffc</value>
+				<value>GUID b1037c4a-7914-445d-a28c-dffdca67c0f3</value>
+				<value>GUID eba87f2b-8c14-4e34-8d14-4d4f383d5842</value>
+			</AggregatesList>
+		</IProfile>
+		<IStereotype type="e">
+			<_id type="a">GUID 42d9b051-db91-496c-9b6c-b1b71a44aa18</_id>
+			<_myState type="a">8192</_myState>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						<IPropertySubject type="e">
+							<_Name type="a">General</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<size type="a">1</size>
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Graphics</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">2</size>
+												<IProperty type="e">
+													<_Name type="a">AssociatedImageFile</_Name>
+													<_Value type="a">\images_design\designModel.jpg</_Value>
+													<_Type type="a">File</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">EnableImageView</_Name>
+													<_Value type="a">True</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
+			<_name type="a">DesignModel</_name>
+			<_modifiedTimeWeak type="a">2.1.2021::18:35:34</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.1.2021::18:35:34</_modifiedTime>
+			<_m2Classes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					<value>Package</value>
+				</IRPYRawContainer>
+			</_m2Classes>
+		</IStereotype>
+		<IStereotype type="e">
+			<_id type="a">GUID 3370cd12-7f9f-4b57-bbbe-7f1d438dfefe</_id>
+			<_myState type="a">8192</_myState>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						<IPropertySubject type="e">
+							<_Name type="a">General</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<size type="a">1</size>
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Graphics</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">2</size>
+												<IProperty type="e">
+													<_Name type="a">AssociatedImageFile</_Name>
+													<_Value type="a">\images_design\HttpServlet.jpg</_Value>
+													<_Type type="a">File</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">EnableImageView</_Name>
+													<_Value type="a">True</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
+			<_name type="a">HttpServlet</_name>
+			<_modifiedTimeWeak type="a">1.1.2021::23:8:52</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.2021::23:8:52</_modifiedTime>
+			<_m2Classes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					<value>Class</value>
+				</IRPYRawContainer>
+			</_m2Classes>
+		</IStereotype>
+		<IStereotype type="e">
+			<_id type="a">GUID ecc20ed6-06d5-4707-987f-4036f890fd8c</_id>
+			<_myState type="a">8192</_myState>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						<IPropertySubject type="e">
+							<_Name type="a">General</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<size type="a">1</size>
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Graphics</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">2</size>
+												<IProperty type="e">
+													<_Name type="a">AssociatedImageFile</_Name>
+													<_Value type="a">\images_design\ServerPage.jpg</_Value>
+													<_Type type="a">File</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">EnableImageView</_Name>
+													<_Value type="a">True</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
+			<_name type="a">ServerPage</_name>
+			<_modifiedTimeWeak type="a">2.1.2021::18:36:40</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.1.2021::18:36:40</_modifiedTime>
+			<_m2Classes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					<value>Class</value>
+				</IRPYRawContainer>
+			</_m2Classes>
+		</IStereotype>
+		<IStereotype type="e">
+			<_id type="a">GUID 7a2582ed-2929-49c6-bc9c-8d4034aeacd0</_id>
+			<_myState type="a">8192</_myState>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						<IPropertySubject type="e">
+							<_Name type="a">General</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<size type="a">1</size>
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Graphics</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">2</size>
+												<IProperty type="e">
+													<_Name type="a">AssociatedImageFile</_Name>
+													<_Value type="a">\images_design\ClientPage.jpg</_Value>
+													<_Type type="a">File</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">EnableImageView</_Name>
+													<_Value type="a">True</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
+			<_name type="a">ClientPage</_name>
+			<_modifiedTimeWeak type="a">2.1.2021::18:36:11</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.1.2021::18:36:11</_modifiedTime>
+			<_m2Classes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					<value>Class</value>
+				</IRPYRawContainer>
+			</_m2Classes>
+		</IStereotype>
+		<IStereotype type="e">
+			<_id type="a">GUID 6a60ba25-1739-4b6c-834b-c4c45faa7d27</_id>
+			<_myState type="a">8192</_myState>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						<IPropertySubject type="e">
+							<_Name type="a">General</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<size type="a">1</size>
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Graphics</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">2</size>
+												<IProperty type="e">
+													<_Name type="a">AssociatedImageFile</_Name>
+													<_Value type="a">\images_design\HTMLForm.jpg</_Value>
+													<_Type type="a">File</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">EnableImageView</_Name>
+													<_Value type="a">True</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
+			<_name type="a">HTMLForm</_name>
+			<_modifiedTimeWeak type="a">2.1.2021::18:36:54</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.1.2021::18:36:54</_modifiedTime>
+			<_m2Classes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					<value>Class</value>
+				</IRPYRawContainer>
+			</_m2Classes>
+		</IStereotype>
+		<IStereotype type="e">
+			<_id type="a">GUID b6902a2d-ecf4-4ebd-89b1-12a076bc710a</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Layer</_name>
+			<_modifiedTimeWeak type="a">2.1.2021::18:37:31</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.1.2021::18:37:31</_modifiedTime>
+			<_m2Classes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					<value>Package</value>
+				</IRPYRawContainer>
+			</_m2Classes>
+		</IStereotype>
+		<IStereotype type="e">
+			<_id type="a">GUID 4aeb0f30-0482-4438-bfe1-f073de14968d</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">SubSystem</_name>
+			<_modifiedTimeWeak type="a">2.1.2021::18:38:43</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.1.2021::18:38:43</_modifiedTime>
+			<_m2Classes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					<value>Package</value>
+				</IRPYRawContainer>
+			</_m2Classes>
+		</IStereotype>
+		<IStereotype type="e">
+			<_id type="a">GUID 485d409a-5cfd-48e7-be23-aa114f5153ec</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Util</_name>
+			<_modifiedTimeWeak type="a">2.1.2021::18:39:12</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.1.2021::18:39:12</_modifiedTime>
+			<_m2Classes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					<value>Package</value>
+				</IRPYRawContainer>
+			</_m2Classes>
+		</IStereotype>
+		<IStereotype type="e">
+			<_id type="a">GUID b10598ff-9d20-47c7-ad37-d9081240fa08</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Library</_name>
+			<_modifiedTimeWeak type="a">2.1.2021::18:40:32</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.1.2021::18:40:32</_modifiedTime>
+			<_m2Classes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					<value>Package</value>
+				</IRPYRawContainer>
+			</_m2Classes>
+		</IStereotype>
+		<IStereotype type="e">
+			<_id type="a">GUID 45dc8d9a-f17b-4879-ae47-23e28ced86bc</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Common</_name>
+			<_modifiedTimeWeak type="a">2.1.2021::18:41:46</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.1.2021::18:41:46</_modifiedTime>
+			<_m2Classes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					<value>Package</value>
+				</IRPYRawContainer>
+			</_m2Classes>
+		</IStereotype>
+		<IStereotype type="e">
+			<_id type="a">GUID 6624c6dd-9bcf-4dbe-ad27-4fa6229f7ffc</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">use</_name>
+			<_modifiedTimeWeak type="a">2.1.2021::18:47:20</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.1.2021::18:47:20</_modifiedTime>
+			<_m2Classes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					<value>Dependency</value>
+				</IRPYRawContainer>
+			</_m2Classes>
+		</IStereotype>
+		<IStereotype type="e">
+			<_id type="a">GUID b1037c4a-7914-445d-a28c-dffdca67c0f3</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">instantiate</_name>
+			<_modifiedTimeWeak type="a">2.1.2021::18:48:14</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.1.2021::18:48:14</_modifiedTime>
+			<_m2Classes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</_m2Classes>
+		</IStereotype>
+		<IClass type="e">
+			<_id type="a">GUID eba87f2b-8c14-4e34-8d14-4d4f383d5842</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+			<size type="a">0</size>
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Control de Mascotas</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container px-4 px-lg-5" id="navbarSupportedContent">
+			<div class="collapse navbar-collapse">
+				<ul class="navbar-nav mr-auto">
+	                <li class="nav-item">
+	                    <a class="nav-link active" href="/">Control de Mascotas</a>
+	                </li>
+	                <li class="nav-item">
+	                    <a class="nav-link active" href="/nuevo">Agregar Mascota</a>
+	                </li>
+	            </ul>
+			</div>
+        </div>
+    </nav>
+
+    <br />
+
+    <div class="container text-center">
+        <form class="form-inline" th:action="@{/}" method="get">
+            <div class="form-group mb-2">
+                <label for="palabraClave">Filtrar: </label>
+            </div>
+            <div class="form-group mx-sm-3 mb-2">
+                <input type="text" name="palabraClave" class="form-control" id="palabraClave" th:value="${palabraClave}" placeholder="Ingrese el valor a buscar" required>
+            </div>
+            <input type="submit" class="btn btn-primary mb-2" value="Buscar">
+            &nbsp;&nbsp;
+            <input type="button" class="btn btn-secondary mb-2" value="Limpiar" onclick="limpiarCampos()">
+        </form>
+
+        <br />
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Especie</th>
+                    <th scope="col">Raza</th>
+                    <th scope="col">Descripción</th>
+                    <th scope="col">Fecha de Registro</th>
+                    <th scope="col">Refugio</th>
+                    <th scope="col">Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr th:each="mascota : ${listaMascotas}">
+                    <td th:text="${mascota.mascota_id}"></td>
+                    <td th:text="${mascota.nombre}"></td>
+                    <td th:text="${mascota.especie}"></td>
+                    <td th:text="${mascota.raza}"></td>
+                    <td th:text="${mascota.descripcion}"></td>
+                    <td th:text="${#dates.format(mascota.fecha_registro, 'dd/MM/yyyy')}"></td>
+                    <td th:text="${mascota.refugio != null ? mascota.refugio.nombre : 'No asignado'}"></td>
+                    <td>
+                        <a class="btn btn-primary" th:href="@{'/editar/' + ${mascota.mascota_id}}">Editar</a>
+                        &nbsp;
+                        <a class="btn btn-danger" th:href="@{'/eliminar/' + ${mascota.mascota_id}}">Eliminar</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script type="text/javascript">
+        function limpiarCampos() {
+            window.location='/';
+        }
+    </script>
+</body>
+</html>

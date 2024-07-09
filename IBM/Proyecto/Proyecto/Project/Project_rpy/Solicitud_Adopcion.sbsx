@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>100.840.0</version>
+	<lang>C++</lang>
+	<BuildNo>9841247</BuildNo>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID 71e75556-7d04-432b-9a59-89a092a42154</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Solicitud_Adopcion</_name>
+			<_modifiedTimeWeak type="a">3.1.1998::23:44:46</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\MA.sbsx</_hfilename>
+					<_hsubsystem type="a">MA</_hsubsystem>
+					<_hname type="a">Dia. Arquitectura de analisis</_hname>
+					<_hid type="a">GUID 51e30af3-228c-438b-bf24-d0d63db68c40</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">3.1.1998::23:44:46</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<weakCGTime type="a">3.1.1998::23:44:46</weakCGTime>
+			<strongCGTime type="a">3.1.1998::23:41:17</strongCGTime>
+			<_defaultComposite type="s">GUID 9993d365-560b-4eb1-8cad-50e57a3cc035</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">12.31.1969::19:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID a7c2742d-1dee-4430-852c-898e803f7715</value>
+				<value>GUID 9993d365-560b-4eb1-8cad-50e57a3cc035</value>
+				<value>GUID 63d39dd5-13fc-4179-9721-65874c1d7697</value>
+				<value>GUID d7b80d85-68ed-45a9-97d3-75c55311f111</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IDependency type="e">
+			<_id type="a">GUID a7c2742d-1dee-4430-852c-898e803f7715</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">Registro_Mascota</_name>
+			<_modifiedTimeWeak type="a">3.1.1998::23:41:17</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.1.1998::23:41:17</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">ISubsystem</_hm2Class>
+					<_hfilename type="a">.\Registro_Mascota.sbsx</_hfilename>
+					<_hsubsystem type="a">MA</_hsubsystem>
+					<_hname type="a">Registro_Mascota</_hname>
+					<_hid type="a">GUID abcfe09c-438c-4872-a9a4-46069e0f0e30</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">ISubsystem</_hm2Class>
+					<_hid type="a">GUID 71e75556-7d04-432b-9a59-89a092a42154</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IClass type="e">
+			<_id type="a">GUID 9993d365-560b-4eb1-8cad-50e57a3cc035</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		<IUseCase type="e">
+			<_id type="a">GUID 63d39dd5-13fc-4179-9721-65874c1d7697</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Solicitar Adopcion</_name>
+			<_modifiedTimeWeak type="a">6.14.1998::22:8:19</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.1.1998::23:43:32</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<weakCGTime type="a">6.14.1998::22:8:19</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<_EntryPoints type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</_EntryPoints>
+			<AggregatesList type="e">
+				<value>GUID b1fa26c3-3fbb-4a24-83ca-6df861dcae53</value>
+				<value>GUID 9eb40044-4f2f-43a7-8f37-d81544274c8c</value>
+			</AggregatesList>
+		</IUseCase>
+		<IDependency type="e">
+			<_id type="a">GUID b1fa26c3-3fbb-4a24-83ca-6df861dcae53</_id>
+			<_myState type="a">2048</_myState>
+			<_rmmServerID type="a">-1</_rmmServerID>
+			<_name type="a">Registrar Adopcion</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">extend</_hname>
+							<_hid type="a">GUID 17ef9a30-cb89-11d5-b5bf-00d0b780aafd</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">6.14.1998::22:8:19</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.1.1998::23:43:32</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\MCU.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU</_hsubsystem>
+					<_hname type="a">Registrar Adopcion</_hname>
+					<_hid type="a">GUID 0d0c3bd7-1499-43ae-af0f-04e831cf82e6</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hid type="a">GUID 63d39dd5-13fc-4179-9721-65874c1d7697</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 9eb40044-4f2f-43a7-8f37-d81544274c8c</_id>
+			<_myState type="a">10240</_myState>
+			<_rmmServerID type="a">-1</_rmmServerID>
+			<_name type="a">itsBuscar Mascota</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.14.1998::22:7:33</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\MCU.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU</_hsubsystem>
+					<_hname type="a">Buscar Mascota</_hname>
+					<_hid type="a">GUID 3a849368-c15a-4c95-a874-531016f71a54</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IUseCase type="e">
+			<_id type="a">GUID d7b80d85-68ed-45a9-97d3-75c55311f111</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Buscar Mascota</_name>
+			<_modifiedTimeWeak type="a">6.14.1998::22:7:15</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.1.1998::23:44:46</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<weakCGTime type="a">6.14.1998::22:7:15</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<_EntryPoints type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</_EntryPoints>
+			<AggregatesList type="e">
+				<value>GUID d6227fa4-fbd9-4961-b155-b9ba4a3305a6</value>
+				<value>GUID 1f776269-1a2e-43a8-a02e-1ae7ff0c93d8</value>
+				<value>GUID 2b4b471c-aa1b-46f4-9f86-a7ba2b08e228</value>
+			</AggregatesList>
+		</IUseCase>
+		<IDependency type="e">
+			<_id type="a">GUID d6227fa4-fbd9-4961-b155-b9ba4a3305a6</_id>
+			<_myState type="a">2048</_myState>
+			<_rmmServerID type="a">-1</_rmmServerID>
+			<_name type="a">Registrar Mascota</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">extend</_hname>
+							<_hid type="a">GUID 17ef9a30-cb89-11d5-b5bf-00d0b780aafd</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">6.14.1998::22:7:15</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.1.1998::23:44:46</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\MCU.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU</_hsubsystem>
+					<_hname type="a">Registrar Mascota</_hname>
+					<_hid type="a">GUID 120fe5da-6332-4170-84ac-8c2178d88c56</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hid type="a">GUID d7b80d85-68ed-45a9-97d3-75c55311f111</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 1f776269-1a2e-43a8-a02e-1ae7ff0c93d8</_id>
+			<_myState type="a">10240</_myState>
+			<_rmmServerID type="a">-1</_rmmServerID>
+			<_name type="a">itsPersona_Interesada</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.14.1998::22:7:3</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IActor</_hm2Class>
+					<_hfilename type="a">.\MCU.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU</_hsubsystem>
+					<_hname type="a">Persona_Interesada</_hname>
+					<_hid type="a">GUID 84783558-3fb5-496b-a4aa-a4bd60181fce</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">NonNavigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 2b4b471c-aa1b-46f4-9f86-a7ba2b08e228</_id>
+			<_myState type="a">10240</_myState>
+			<_rmmServerID type="a">-1</_rmmServerID>
+			<_name type="a">itsSolicitar Adopcion</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.14.1998::22:7:33</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\MCU.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU</_hsubsystem>
+					<_hname type="a">Solicitar Adopcion</_hname>
+					<_hid type="a">GUID 71302a1e-a208-4bdf-9e75-815912735c08</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+			<size type="a">0</size>
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+
