@@ -2,6 +2,7 @@ package edu.cibertec.services;
 
 import edu.cibertec.models.Refugios;
 import edu.cibertec.repositories.RefugiosRepository;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -14,12 +15,12 @@ public class RefugiosService {
     @Autowired
     private RefugiosRepository refugiosRepository;
 
-    public List<Refugios> findAll() {
-        return refugiosRepository.findAll();
-    }
-
     public Optional<Refugios> findById(Long id) {
         return refugiosRepository.findById(id);
+    }
+    
+    public List<Refugios> findAll() {
+        return refugiosRepository.findAll();
     }
 
     public Refugios save(Refugios refugio) {
@@ -32,5 +33,12 @@ public class RefugiosService {
 
     public boolean existsById(Long id) {
         return refugiosRepository.existsById(id);
+    }
+
+    public List<Refugios> listAll(String palabraCla) {
+        if (palabraCla != null) {
+            return refugiosRepository.findAll(palabraCla);
+        }
+        return refugiosRepository.findAll();
     }
 }

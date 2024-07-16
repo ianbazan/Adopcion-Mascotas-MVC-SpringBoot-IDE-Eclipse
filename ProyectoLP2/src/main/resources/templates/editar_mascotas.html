@@ -14,6 +14,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="/nuevo">Agregar Mascota</a>
                 </li>
+				<li class="nav-item">
+                    <a class="nav-link active" href="/solicitud">Solicitud Adopción</a>
+                </li>
             </ul>
         </div>
     </nav>
@@ -53,7 +56,7 @@
                         <div class="form-group">
                             <label>Refugio: </label>
                             <select name="refugio" th:field="*{refugio}" class="form-control">
-                                <option th:each="refugio : ${refugios}" th:value="${refugio}" th:text="${refugio.nombre}"></option>
+                                <option th:each="refugio : ${refugios}" th:value="${refugio.refugio_id}" th:text="${refugio.nombre}"></option>
                             </select>
                         </div>
                         <div class="box-footer">

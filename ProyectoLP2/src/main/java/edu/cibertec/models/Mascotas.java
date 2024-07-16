@@ -2,6 +2,8 @@ package edu.cibertec.models;
 
 import java.util.Date;
 
+import org.springframework.format.annotation.DateTimeFormat;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.FetchType;
@@ -29,6 +31,7 @@ public class Mascotas {
     @Column(nullable = false, length = 60)
     private String descripcion;
     
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
     @Column(nullable = false)
     private Date fecha_registro;
     

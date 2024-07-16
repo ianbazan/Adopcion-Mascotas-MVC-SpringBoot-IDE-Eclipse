@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <title>Refugio - Registrar Solicitud y Agregar Mascota</title>
-	 <!-- Font Awesome icons (free version)-->
+    <title>Admin - Reporte de Mascotas y Refugios</title>
+	<!-- Font Awesome icons (free version)-->
 	    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
 	    <!-- Google fonts-->
 	    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
@@ -22,73 +22,35 @@
 	            </button>
 	            <div class="collapse navbar-collapse" id="navbarResponsive">
 	                <ul class="navbar-nav ms-auto">
-						<li class="nav-item mx-0 mx-lg-1">
-                        	<a class="nav-link py-3 px-0 px-lg-3 rounded" href="/refugio">Inicio</a>
-                    	</li>
 	                    <li class="nav-item mx-0 mx-lg-1">
-                        	<a class="nav-link py-3 px-0 px-lg-3 rounded" href="/nuevo">Agregar Mascota</a>
-	                    </li>
-						<li class="nav-item mx-0 mx-lg-1">
-	                        <a class="nav-link py-3 px-0 px-lg-3 rounded" href="/solicitud">Registrar Solicitud</a>
-	                    </li>
-	                </ul>
-	            </div>
-	        </div>
-	    </nav>
-		<!-- Masthead-->
-		<header class="masthead bg-primary text-white text-center">
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded" href="/reporteMascotas">Reporte de Mascotas</a>
+                    </li>
+					<li class="nav-item mx-0 mx-lg-1">
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded" href="/reporteRefugios">Reporte de Refugios</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+	
+	<!-- Masthead-->
+	    <header class="masthead bg-primary text-white text-center">
 	        <div class="container d-flex align-items-center flex-column">
 	            <!-- Masthead Heading-->
-	            <h1 class="masthead-heading text-uppercase mb-0">Agrega una Mascota!</h1>
+	            <h1 class="masthead-heading text-uppercase mb-0">Bienvenido, Administrador</h1>
+	            <!-- Icon Divider-->
+	            <div class="divider-custom divider-light">
+	                <div class="divider-custom-line"></div>
+	                <div class="divider-custom-icon"><i class="fas fa-paw"></i></div>
+	                <div class="divider-custom-line"></div>
+	            </div>
+	            <!-- Masthead Subheading-->
+	            <p class="masthead-subheading font-weight-light mb-0">Seleccione una opción del menú para ver los reportes.</p>
 	        </div>
-	    </header>
-			
-			
-		<div class="container mt-5">
-		    <div class="row justify-content-center">
-				<div class="col-lg-6 col-md-8 col-sm-10">
-					<div class="card p-4">
-		            <h1 class="page-section-heading text-center text-secondary mb-0">Registro de mascota</h1>
-		            <div class="card-body">
-		                <form th:action="@{/guardar}" th:object="${mascotas}" method="post">
-		                    <div class="form-group mt-2">
-		                        <label>Nombre: </label>
-		                        <input type="text" name="nombre" th:field="*{nombre}" class="form-control" placeholder="Ingrese el nombre de la mascota" required />
-		                    </div>
-		                    <div class="form-group mt-2">
-		                        <label>Especie: </label>
-		                        <input type="text" name="especie" th:field="*{especie}" class="form-control" placeholder="Ingrese la especie de la mascota" required />
-		                    </div>
-		                    <div class="form-group mt-2">
-		                        <label>Raza: </label>
-		                        <input type="text" name="raza" th:field="*{raza}" class="form-control" placeholder="Ingrese la raza de la mascota" required />
-		                    </div>
-		                    <div class="form-group mt-2">
-		                        <label>Descripción: </label>
-		                        <input type="text" name="descripcion" th:field="*{descripcion}" class="form-control" placeholder="Ingrese la descripción de la mascota" required />
-		                    </div>
-		                    <div class="form-group mt-2">
-		                        <label>Fecha de Registro: </label>
-		                        <input type="date" name="fecha_registro" th:field="*{fecha_registro}" class="form-control" required />
-		                    </div>
-		                    <div class="form-group mt-2">
-		                        <label>Refugio:</label>
-		                        <select id="refugio" th:field="*{refugio}" class="form-control">
-		                            <option th:each="refugio : ${refugios}" th:value="${refugio.refugio_id}" th:text="${refugio.nombre}"></option>
-		                        </select>
-		                    </div>
-		                    <br>
-		                    <div class="box-footer">
-		                        <button class="btn btn-success">Guardar</button>
-		                    </div>
-		                </form>
-		            </div>
-		        </div>
-		    </div>
-		</div>
-	</div>
-		<!-- Footer-->
-	    <footer class="footer text-center mt-5 py-3 bg-light">
+	    </header>	
+	
+	<!-- Footer-->
+	    <footer class="footer text-center mt-auto py-3 bg-light">
 	        <div class="container">
 	            <div class="row">
 	                <!-- Footer Location-->
@@ -129,5 +91,5 @@
 		    }
 		</script>
 		<script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-	</body>
-	</html>
+</body>
+</html>

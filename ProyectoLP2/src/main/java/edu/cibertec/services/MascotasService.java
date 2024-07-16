@@ -11,25 +11,25 @@ import edu.cibertec.repositories.MascotasRepositorio;
 @Service
 public class MascotasService {
 
-	@Autowired
-	private MascotasRepositorio mascotasRepositorio;
-	
-	public List<Mascotas> listAll(String palabraclave){
-		if (palabraclave != null) {
-		return mascotasRepositorio.findAll(palabraclave);
-		}
-	return mascotasRepositorio.findAll();
-	}
-	
-	public Mascotas save(Mascotas mascota) {
+    @Autowired
+    private MascotasRepositorio mascotasRepositorio;
+
+    public List<Mascotas> listAll(String palabraclave) {
+        if (palabraclave != null) {
+            return mascotasRepositorio.findAll(palabraclave);
+        }
+        return mascotasRepositorio.findAll();
+    }
+
+    public Mascotas save(Mascotas mascota) {
         return mascotasRepositorio.save(mascota);
     }
-	
-	public Mascotas get (Long id) {
-		return mascotasRepositorio.findById(id).get();
-	}
-	
-	public void delete (Long id) {
-		mascotasRepositorio.deleteById(id);
-	}
+
+    public Mascotas get(Long id) {
+        return mascotasRepositorio.findById(id).orElse(null);
+    }
+
+    public void delete(Long id) {
+        mascotasRepositorio.deleteById(id);
+    }
 }
