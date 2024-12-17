@@ -36,12 +36,11 @@
             overflow: hidden;
             transition: transform 0.3s ease, box-shadow 0.3s ease;
             color: white;
-
         }
 
         .card:hover {
             transform: scale(1.05);
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra en toda la card */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
         }
 
         .card-body {
@@ -58,6 +57,23 @@
 
         .card:hover .card-body {
             opacity: 1;
+        }
+
+        .mission-vision-container {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .mission-vision-container h3 {
+            margin-bottom: 30px;
+        }
+
+        .mission-vision-container .mission, .mission-vision-container .vision {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
         }
     </style>
 </head>
@@ -117,7 +133,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Adrián Programador</h5>
                     <p class="card-text">Soy un programador con conocimiento en React, ASP.NET core mvc,Spring.
-                    Conozco lenguajes como Java, JS, C#, C++, Kotlin. </p>
+                        Conozco lenguajes como Java, JS, C#, C++, Kotlin. </p>
                 </div>
             </div>
         </div>
@@ -134,6 +150,39 @@
         </div>
     </div>
 </div>
+
+<!-- Misión y Visión -->
+<div class="mission-vision-container container my-5">
+    <h3 class="text-uppercase text-secondary mb-5">Nuestra Misión y Visión</h3>
+    <div class="row justify-content-center">
+        <!-- Misión -->
+        <div class="col-md-5 mb-4">
+            <div class="card text-white shadow-lg border-0" style="background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%); border-radius: 15px;">
+                <div class="card-body text-center p-4">
+                    <i class="fas fa-bullseye fa-3x mb-3"></i>
+                    <h4 class="card-title text-uppercase mb-3">Misión</h4>
+                    <p class="card-text">
+                        Desarrollar una plataforma web eficiente y segura que facilite el proceso de adopción de mascotas, conectando refugios y adoptantes, promoviendo la adopción responsable y mejorando la gestión administrativa en refugios de animales.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- Visión -->
+        <div class="col-md-5 mb-4">
+            <div class="card text-white shadow-lg border-0" style="background: linear-gradient(135deg, #ff7eb3 0%, #ff758c 100%); border-radius: 15px;">
+                <div class="card-body text-center p-4">
+                    <i class="fas fa-eye fa-3x mb-3"></i>
+                    <h4 class="card-title text-uppercase mb-3">Visión</h4>
+                    <p class="card-text">
+                        Ser la plataforma líder en gestión de adopciones de mascotas, mejorando la eficiencia de los refugios y promoviendo un futuro donde todos los animales encuentren un hogar responsable y seguro.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 <!-- Footer-->
 <footer class="footer text-center mt-5 py-3 bg-secondary">
     <div class="container">

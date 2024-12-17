@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 
 import edu.cibertec.models.Mascotas;
 import edu.cibertec.repositories.MascotasRepositorio;
+import edu.cibertec.repositories.SolicitudAdopcionRepository;
 
 @Service
 public class MascotasService {
@@ -31,5 +32,13 @@ public class MascotasService {
 
     public void delete(Long id) {
         mascotasRepositorio.deleteById(id);
+    }
+
+    public boolean isMascotaSolicitada(Long id) {
+        return SolicitudAdopcionRepository.existsByMascotaId(id);
+    }
+
+    public boolean isMascotaReferencedInAdopciones(Long id) {
+        return SolicitudAdopcionRepository.existsByMascotaId(id);
     }
 }

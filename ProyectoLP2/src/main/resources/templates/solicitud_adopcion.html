@@ -12,36 +12,54 @@
     <link href="/css/styles.css" rel="stylesheet" />
 </head>
 <body id="page-top">
-    <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
-        <div class="container">
-            <a class="navbar-brand" href="/">Control de Mascotas</a>
-            <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                Menu
-                <i class="fas fa-bars"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item mx-0 mx-lg-1">
-                        <a class="nav-link py-3 px-0 px-lg-3 rounded" href="/refugio/refugio">Inicio</a>
-                    </li>
-                    <li class="nav-item mx-0 mx-lg-1">
-                        <a class="nav-link py-3 px-0 px-lg-3 rounded" href="/nuevo">Agregar Mascota</a>
-                    </li>
-                    <li class="nav-item mx-0 mx-lg-1">
-                        <a class="nav-link py-3 px-0 px-lg-3 rounded" href="/solicitud">Registrar Solicitud</a>
-                    </li>
-                </ul>
-            </div>
+<!-- Navigation-->
+<nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand" href="/refugio/refugio">Control de Mascotas</a>
+        <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item mx-0 mx-lg-1">
+                    <a class="nav-link py-3 px-0 px-lg-3 rounded" href="/refugio/refugio">Inicio</a>
+                </li>
+                <li class="nav-item mx-0 mx-lg-1">
+                    <a class="nav-link py-3 px-0 px-lg-3 rounded" href="/nuevo">Agregar Mascota</a>
+                </li>
+                <li class="nav-item mx-0 mx-lg-1">
+                    <a class="nav-link py-3 px-0 px-lg-3 rounded" href="/solicitud">Registrar Solicitud</a>
+                </li>
+                <li class="nav-item mx-0 mx-lg-1">
+                    <a class="nav-link py-3 px-0 px-lg-3 rounded" href="/logout">Cerrar Sesión</a>
+                </li>
+            </ul>
         </div>
-    </nav>
+    </div>
+</nav>
     <!-- Masthead-->
-    <header class="masthead bg-primary"></header>
-
+    <header class="masthead bg-primary text-white text-center">
+        <div class="container d-flex align-items-center flex-column">
+            <!-- Masthead Heading-->
+            <h1 class="masthead-heading text-uppercase mb-0">Solicitudes de Adopción</h1>
+            <!-- Icon Divider-->
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-paw"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- Masthead Subheading-->
+            <p class="masthead-subheading font-weight-light mb-0">Seleccione una opción del menú o lista.</p>
+        </div>
+    </header>
+<br>
+<br>
+<br>
+<br>
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h2>Solicitudes de Adopción</h2>
                 <table class="table table-bordered">
                     <thead>
                         <tr>
@@ -71,5 +89,35 @@
             </div>
         </div>
     </div>
+
+    <!-- Footer-->
+    <footer class="footer text-center mt-5 py-3 bg-secondary">
+        <div class="container">
+            <div class="row">
+                <!-- Footer Location-->
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Ubicación</h4>
+                    <p class="lead mb-0">
+                        2215 John Daniel Drive
+                        <br />
+                        Clark, MO 65243
+                    </p>
+                </div>
+                <!-- Footer Social Icons-->
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Redes Sociales</h4>
+                    <a class="btn btn-outline-primary btn-social mx-1" href="https://github.com/ianbazan"><i class="fab fa-fw fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-primary btn-social mx-1" href="https://github.com/ianbazan"><i class="fab fa-fw fa-twitter"></i></a>
+                    <a class="btn btn-outline-primary btn-social mx-1" href="https://github.com/ianbazan"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                    <a class="btn btn-outline-primary btn-social mx-1" href="https://github.com/ianbazan"><i class="fab fa-fw fa-instagram"></i></a>
+                </div>
+                <!-- Footer About Text-->
+                <div class="col-lg-4">
+                    <h4 class="text-uppercase mb-4">Sobre nosotros</h4>
+                    <a class="btn btn-outline-primary btn-social mx-1" href="/SobreNosotros"><i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

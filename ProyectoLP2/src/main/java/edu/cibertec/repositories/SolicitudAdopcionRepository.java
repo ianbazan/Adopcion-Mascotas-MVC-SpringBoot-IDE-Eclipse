@@ -7,5 +7,8 @@ import edu.cibertec.models.SolicitudAdopcion;
 
 @Repository
 public interface SolicitudAdopcionRepository extends JpaRepository<SolicitudAdopcion, Long>{
+    static boolean existsByMascotaId(Long mascotaId) {
+        return false;
+    }
 
 }

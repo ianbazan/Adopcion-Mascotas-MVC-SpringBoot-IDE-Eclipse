@@ -23,6 +23,7 @@ import edu.cibertec.models.SolicitudAdopcion;
 import edu.cibertec.services.AdopcionesService;
 import edu.cibertec.services.MascotasService;
 import edu.cibertec.services.RefugiosService;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 @Controller
 public class MascotasController {
@@ -90,9 +91,16 @@ public class MascotasController {
     }
 
     @RequestMapping("/eliminar/{id}")
-    public String eliminarMascota(@PathVariable(name="id") Long id) {
-        mascotasService.delete(id);
-        return "redirect:/refugio/refugio";
+    public String eliminarMascota(@PathVariable(name="id") Long id, Model model) {
+        try {
+            mascotasService.delete(id);
+            model.addAttribute("success", "Mascota eliminada exitosamente");
+        } catch (Exception e) {
+            model.addAttribute("error", "Esta mascota está siendo solicitada");
+        }
+        List<Mascotas> listaMascotas = mascotasService.listAll(null);
+        model.addAttribute("listaMascotas", listaMascotas);
+        return "RefugioView";
     }
     
     @RequestMapping("/solicitud/{id}")
